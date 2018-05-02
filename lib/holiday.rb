@@ -74,7 +74,7 @@ new array = []
 
 holiday_hash.each do |season, holiday_details|
   holiday_details.each do |holiday_name, supply_array|
-    
+    supply_array.each do |
 end
 end
 
