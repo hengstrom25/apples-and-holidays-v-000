@@ -77,7 +77,10 @@ holiday_hash.each do |season, holiday_details|
     supply_array.each do |supply|
       if supply == "BBQ"
         new_array << holiday_name
-end
+      end
+    end
+  end
+  new_array
 end
 
 
